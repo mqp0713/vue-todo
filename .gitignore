@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log
+docs/
+fridge-tips.md
+
+test.js
+index-static/
+TODO.md
+copy.js
