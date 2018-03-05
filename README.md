@@ -1,6 +1,6 @@
 # vue-todo应用
 
-[在线预览] (https://mqp0713.github.io/vue-todo/dist/index.html)
+[在线预览](https://mqp0713.github.io/vue-todo/dist/index.html)
 
 ## Build Setup
 
