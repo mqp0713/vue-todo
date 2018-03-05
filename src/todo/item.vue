@@ -28,5 +28,10 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-
+.todo-item {
+  margin-top .5rem
+}
+.destory{
+  
+}
 </style>

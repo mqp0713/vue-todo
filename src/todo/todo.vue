@@ -26,7 +26,7 @@ export default {
   data() {
     return {
       todos: [],
-      filter: 'all'
+      filter: '全部'
     }
   },
   components: {
@@ -36,10 +36,10 @@ export default {
   // 计算属性用于页面渲染之前对数据进行更改
   computed: {
     filteredTodos() {
-      if(this.filter === 'all') {
+      if(this.filter === '全部') {
         return this.todos
       }
-      const completed = this.filter === 'completed'
+      const completed = this.filter === '已完成'
       return this.todos.filter( todo => completed === todo.completed)
     }
   },
